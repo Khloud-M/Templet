@@ -1,0 +1,35 @@
+/* small*/
+@media (min-width:768px)
+{
+    .container
+{
+    width: 750px;
+}
+
+
+}
+/* medium*/
+@media (min-width:992px)
+{
+    .container
+{
+    width: 970px;
+}
+}
+/* large*/
+@media (min-width:1200px)
+{
+    .container
+{
+    width: 1170px;
+}
+}
+@media (max-width: 1199px) {
+    .image-column {
+      display: none;
+    }
+  }
+  .srv {
+    text-align: center;
+    flex-direction: column;
+}
